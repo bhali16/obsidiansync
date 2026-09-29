@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python (desktop-client)
+desktop-client/.venv/
+**/__pycache__/
+*.pyc
+
+# Android / Gradle (mobile-app also has its own module-level .gitignore files)
+mobile-app/.gradle/
+mobile-app/.idea/
+mobile-app/.kotlin/
+mobile-app/build/
+mobile-app/app/build/
+mobile-app/local.properties
+*.iml
+.cxx/
+.externalNativeBuild/
+
+# Claude Code local settings
+.claude/
