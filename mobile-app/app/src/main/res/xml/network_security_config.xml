@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- ObsidianSync only ever talks to the desktop app over the local Wi-Fi network, so
+         plain HTTP (cleartext) is allowed instead of requiring TLS/HTTPS. -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
